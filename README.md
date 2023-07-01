@@ -1,4 +1,4 @@
-### HOW TO COMPILE AND RUN
+### HOW TO COMPILE AND RUN:
 
 COMPILE: Type this command: javac Karp21MaxCut.java
 
