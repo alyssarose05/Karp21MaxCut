@@ -1,0 +1,27 @@
+KARP#21: Max Cut
+
+Input data:
+V1: 5
+V2: 4
+V3: 6
+V4: 8
+V5: 2
+V6: 2
+V7: 4
+V8: 5
+V9: 6
+V10: 3
+
+Solution: 
+----------------------
+First subset: 
+V1 V2 V3 V4 V7 
+Second subset: 
+V6 V7 V8 V9 
+
+Solution count: 16
+
+Statistics:
+Worst fitness: 0.13333333333333333
+Average fitness: 0.2222222222222222
+Best fitness: 0.3111111111111111
