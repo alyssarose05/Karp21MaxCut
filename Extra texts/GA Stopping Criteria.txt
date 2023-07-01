@@ -1,0 +1,4 @@
+For brute force, my algorithm will stop once all of the possible solutions have been gone through. For the random methods, my algorithm will stop once all of the generations have
+been filled with all members. The user may put the maximum number of generations, maximum number of correct solutions, or the maximum fitness that they want the algorithm to stop at.
+Respectively, these are accomplished with the flags -max_gen, -max_sol, and -max_fitness. -max_gen uses the maximum generation, -max_sol uses the verification function, and max_fitnness
+uses the fitness function. If any of these maximum values are reached during the algorithm, then it will terminate and print the results to the given text file.

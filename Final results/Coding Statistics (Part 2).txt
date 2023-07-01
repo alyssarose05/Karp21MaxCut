@@ -1,0 +1,52 @@
+PHASES:
+	PHASE 1
+		CLASSES:
+			1. Vertex.java
+				METHODS:
+					i. Vertex constructor: 3 min
+					ii. toString: 5 min
+			TOTAL CLASS TIME: 8 min
+
+			2. Edge.java
+				METHODS: 
+					i. Edge constructor: 3 min
+			TOTAL CLASS TIME: 3 MIN
+
+			2. Karp21MaxCut.java
+				METHODS:
+					i. main: 2 hr
+					ii. isValid: 3 min
+					ii. printOutput: 2 hr
+					iv. bruteForce: 4 hr
+			TOTAL CLASS TIME: 8hr 3 min
+	TOTAL PHASE TIME: 8hr 14 min
+
+	PHASE 2
+		CLASSES:
+			1. Karp21MaxCut.java
+				METHODS:
+					i. main: 30 min
+					ii. fitness: 3 min
+					iii. fillSolution: 1 hr 30 min
+					iv. printOutput: 45 min
+					v. mathRandom: 1 hr
+					vi. bbs: 1 hr
+					vii. min: 2 min
+					viii. max: 2 min
+					ix. 5 min
+		TOTAL CLASS TIME: 4 hr 57 min
+	TOTAL PHASE TIME: 4 hr 57 min
+
+	PHASE 3
+		CLASSES:
+
+			1. Karp21MaxCut.java
+				METHODS:
+					i. main: 10 min
+					ii. printOutput: 10 min
+					iii. mathRandom: 5 min
+					iv. bbs: 5 min
+		TOTAL CLASS TIME: 30 min
+	TOTAL PHASE TIME: 30 min
+
+TOTAL TIME SPENT ON CODING PROJECT: 13 hr 41 min

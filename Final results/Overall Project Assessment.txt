@@ -1,0 +1,17 @@
+ACCOMPLISHMENTS:
+	- Read input and output results for sizes small, medium, and large
+	- Incorporated the idea of max cut
+	- Solved the max cut problem using brute force, Math.random(), and the Blum-Blum-Shub (BBS) algorithm
+	- Read input from a text file
+	- Outputted results to a text file
+	- Used flags to control parameters of results
+	- Created and used a verification function
+	- Kept count of the number of solutions generated
+	- Output the solution as two subsets of vertices
+	- Created and used a fitness function
+	- Calculated fitnesses for all final solutions of all sizes and methods
+	- Incorporated generations and populations into the random methods
+	- Incorporated stopping criteria like maximum generations, maximum number of correct solutions, and maximum fitness
+	- Assumed MEMETIC to be true and implemented it into the algorithm
+
+ROOM FOR IMPROVEMENT: This program assumes that a cut is a cut between two broken edges, but the reality is that a cut can involve many more edges and have different shapes. I would have liked to incorporate every type of cut that could exist, but I'd also have to figure out what the graph would look like. Graphs can have different looks but have the same data, so determining their looks would be a task by itself. It was also difficult to correctly print out the correct solution to the problem. Depending on a single change to any of the values used, there would be either duplicate vertices, missing vertices, or nothing at all in either of the two subsets. I managed to get it to where non-empty solutions were never generated, but these are nevertheless not perfect. It could be a problem of not reading the graph correctly, or that some of the cut indices were not valid. There would likely need to be more restrictions on what is allowed and what isn't for all parameters in the program. 

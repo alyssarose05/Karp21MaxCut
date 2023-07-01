@@ -1,0 +1,30 @@
+CLASSES:
+
+	1. Vertex.java
+		Methods:
+			i. Vertex constructor
+			ii. toString
+		Total method count: 2
+
+	2. Edge.java
+		Methods:
+			i. Edge constructor
+		Total method count: 1
+
+	3. Karp21MaxCut.java
+		Methods:
+			i. main
+			ii. isValid
+			iii. fitness
+			iv. fillSolution
+			v. printOutput
+			vi. bruteForce
+			vii. mathRandom
+			viii. bbs
+			ix. min
+			x. max
+			xi. exponent
+		Total method count: 11
+
+TOTAL METHOD COUNT: 14
+TOTAL CLASS COUNT: 3

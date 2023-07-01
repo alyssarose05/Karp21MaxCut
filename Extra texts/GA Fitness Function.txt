@@ -1,0 +1,36 @@
+The problem that I was assigned is called the Karp#21 maximum cut problem. Given a weighted graph that is cut by breaking edges, we are to find the cut that maximizes the sum of thesee
+broken edges. For simplicity during this phase, this code cuts two edges, where the first half of the vertices are one line, and the other half are the other.
+
+My fitness function assumes that the perfect solution is the sum that is the closest to the sum of all edges. If the solution is that ALL of the edges have been cut, then we know that there
+is no better solution because no more edges can be cut after that. Therefore, solutions are ranked based on how close they are to the sum of all edges: the perfect solution. We can find
+this out by dividing the sum of the broken edges in the maximum cut by the sum of all of the edges. The closer the result is to 1, the better the fitness.
+
+SUBSET = CHROMOSOME, SO 2 CHROMOSOMES PER SOLUTION
+
+PHASES:
+
+	PHASE 1:
+		BEST METHOD: BRUTE FORCE
+		BEST SIZE: SMALL
+		FIRST SUBSET: V1 V2 V3 V4
+		SECOND SUBSET: V5 V6 V7 V8 V9
+		CALCULATED FITNESS: 0.3111111111111111
+
+	PHASE 2:
+		BEST METHOD: BRUTE FORCE
+		BEST SIZE: SMALL
+		FIRST SUBSET: V1 V2 V4 V10
+		SECOND SUBSET: V5 V6 V7 V8 V9
+		CALCULATED FITNESS: 0.3111111111111111
+
+	PHASE 3:
+		BEST METHOD: BRUTE FORCE
+		BEST SIZE: SMALL
+		FIRST SUBSET: V1 V2 V3 V4 V7
+		SECOND SUBSET: V6 V7 V8 V9
+		CALCULATED FITNESS: 0.3111111111111111
+
+Overall, the best fitnesses for each of the phases were the same, as ths best result came from the brute force method each time. The only real difference is the subsets that were
+obtained as a result. This may be because the Math.random() and BBS methods use randomly generated values rather than going through every possible solution, so random methods are generally
+the least likely to succeed in finding the correct solution. Some of the values may have been missed in the chromosomes, such as the first subset where V10 is missing. This may have to
+do with how my results were printed during the first phase compared to the future phases, which is what I modified using the fillSolutions() method in case this is not correct.
