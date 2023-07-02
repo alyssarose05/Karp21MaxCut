@@ -4,9 +4,10 @@ COMPILE: Type this command: javac Karp21MaxCut.java
 
 RUN: Type this command: java Karp21MaxCut -inputFile [input file] -outputFile [output file] -size [size]
 
-Sample input files: Small_Input.txt, Medium_Input.txt, Large_Input.txt
-Output file: output.txt
-Available sizes: small (at least 10), medium (at least 15), large (at least 20)
+- Sample input files: Small_Input.txt, Medium_Input.txt, Large_Input.txt
+- Output file: output.txt
+- Available sizes: small (at least 10), medium (at least 15), large (at least 20)
+
 
 ADDITIONAL FLAGS:
 - -bruteForce: Solve using brute force.
