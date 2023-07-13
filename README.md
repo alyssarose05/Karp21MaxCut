@@ -4,8 +4,8 @@ COMPILE: Type this command: javac Karp21MaxCut.java
 
 RUN: Type this command: java Karp21MaxCut -inputFile [input file] -outputFile [output file] -size [size]
 
-- Sample input files: Small_Input.txt, Medium_Input.txt, Large_Input.txt
-- Output file: output.txt
+- Sample input files: Small_Input.txt, Medium_Input.txt, Large_Input.txt (input.txt by default)
+- The output file is output.txt by default.
 - Available sizes: small (at least 10), medium (at least 15), large (at least 20)
 
 
