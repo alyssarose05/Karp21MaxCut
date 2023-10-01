@@ -11,7 +11,7 @@ RUN: Type this command: `java Karp21MaxCut -inputFile [input file] -outputFile [
 
 ADDITIONAL FLAGS:
 - `-bruteForce`: Solve using brute force.
-- `-mathRandom`: Solve using Math.random().
+- `-mathRandom`: Solve using `Math.random()`.
 - `-bbs`: Solve using the Blum-Blum-Shub (BBS) algorithm.
 
 - `-max_gen <number>`: The maximum number of generations you want to stop at (100 by default)
