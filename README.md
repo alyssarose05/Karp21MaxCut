@@ -2,7 +2,7 @@
 
 1. Download the Karp21MaxCut.jar file in the "Releases" section of this repository.
 2. Put your input file in the same location as the .jar file.
-3. Open your terminal and type this command: `java -jar Karp21MaxCut.jar -inputFile [input file] -outputFile [output file] -size [size]`
+3. Open your terminal in that location and type this command: `java -jar Karp21MaxCut.jar -inputFile [input file] -outputFile [output file] -size [size]`
 ---
 **About the running command:**
 - Sample input files: Small_Input.txt, Medium_Input.txt, Large_Input.txt (input.txt by default)
