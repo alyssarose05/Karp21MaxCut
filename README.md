@@ -1,15 +1,16 @@
-### HOW TO COMPILE AND RUN:
+### HOW TO DOWNLOAD AND RUN:
 
-COMPILE: Type this command: `javac Karp21MaxCut.java`
-
-RUN: Type this command: `java Karp21MaxCut -inputFile [input file] -outputFile [output file] -size [size]`
-
+1. Download the Karp21MaxCut.jar file in the "Releases" section of this repository.
+2. Put your input file in the same location as the .jar file.
+3. Open your terminal and type this command: `java -jar Karp21MaxCut.jar -inputFile [input file] -outputFile [output file] -size [size]`
+---
+**About the running command:**
 - Sample input files: Small_Input.txt, Medium_Input.txt, Large_Input.txt (input.txt by default)
 - The output file is output.txt by default.
 - Available sizes: small (at least 10), medium (at least 15), large (at least 20)
 
 
-ADDITIONAL FLAGS:
+*ADDITIONAL FLAGS:*
 - `-bruteForce`: Solve using brute force.
 - `-mathRandom`: Solve using `Math.random()`.
 - `-bbs`: Solve using the Blum-Blum-Shub (BBS) algorithm.
